@@ -1,0 +1,91 @@
+2023-05-04T15:58:40+00:00 INFO Creating razorpay webhook
+2023-05-04T15:58:40+00:00 INFO Trying to create one_cc_address_sync_cron
+2023-05-04T15:58:40+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2023-05-04T15:58:40+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2023-05-04T15:58:40+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2023-05-04T15:58:40+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2023-05-04T15:58:40+00:00 INFO updateAddressSyncCronData: successfully updated
+2023-05-04T16:00:14+00:00 INFO Called process_payment with params order_id 321
+2023-05-04T16:00:14+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 321
+2023-05-04T16:00:15+00:00 INFO getRazorpayPaymentParams 321
+2023-05-04T16:00:15+00:00 INFO createOrGetRazorpayOrderId 321 and is1ccCheckout is set to no
+2023-05-04T16:00:15+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 321 and is_magic_checkout_order is set to no
+2023-05-04T16:00:15+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id321
+2023-05-04T16:00:15+00:00 INFO Called createRazorpayOrderId with params orderId 321 and sessionKey razorpay_order_id321
+2023-05-04T16:00:15+00:00 INFO Called getOrderCreationData with params orderId 321
+2023-05-04T16:00:15+00:00 INFO Called getOrderCreationData with params orderId 321 and is1ccOrder is set to no
+2023-05-04T16:00:15+00:00 INFO For order 321
+2023-05-04T16:00:15+00:00 INFO {"receipt":321,"amount":1060,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"321"}}
+2023-05-04T16:00:16+00:00 INFO For order session key razorpay_order_id321
+2023-05-04T16:01:35+00:00 INFO Woocommerce orderId: 321 webhook process exited due to secret not available
+2023-05-04T16:01:45+00:00 INFO Called check_razorpay_response: wc_order_TKjwr2EPvyXRO
+2023-05-04T16:01:45+00:00 INFO Get order id in check_razorpay_response: orderId 321
+2023-05-04T16:01:45+00:00 INFO verifySignature orderId: 321
+2023-05-04T16:01:45+00:00 INFO verifySignature attr
+2023-05-04T16:01:45+00:00 INFO {"razorpay_payment_id":"pay_Lle0SyRQfXgUoc","razorpay_signature":"edc26c5591ecceea5752b0f1613d0e1e84a45a0820584e283a787f7d2034ef08","razorpay_order_id":"order_Lldz6uNG943FFa"}
+2023-05-04T16:01:45+00:00 INFO updateOrder orderId: 321 , razorpayPaymentId: pay_Lle0SyRQfXgUoc , success: 1
+2023-05-04T16:01:45+00:00 INFO Order details check initiated step 1 for the orderId: 321
+2023-05-04T16:01:45+00:00 INFO Woocommerce orderId: 321 processed through callback
+2023-05-04T16:28:47+00:00 INFO Called process_payment with params order_id 322
+2023-05-04T16:28:47+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 322
+2023-05-04T16:28:48+00:00 INFO getRazorpayPaymentParams 322
+2023-05-04T16:28:48+00:00 INFO createOrGetRazorpayOrderId 322 and is1ccCheckout is set to no
+2023-05-04T16:28:48+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 322 and is_magic_checkout_order is set to no
+2023-05-04T16:28:48+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id322
+2023-05-04T16:28:48+00:00 INFO Called createRazorpayOrderId with params orderId 322 and sessionKey razorpay_order_id322
+2023-05-04T16:28:48+00:00 INFO Called getOrderCreationData with params orderId 322
+2023-05-04T16:28:48+00:00 INFO Called getOrderCreationData with params orderId 322 and is1ccOrder is set to no
+2023-05-04T16:28:48+00:00 INFO For order 322
+2023-05-04T16:28:48+00:00 INFO {"receipt":322,"amount":1060,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"322"}}
+2023-05-04T16:28:49+00:00 INFO For order session key razorpay_order_id322
+2023-05-04T16:29:21+00:00 INFO Woocommerce orderId: 322 webhook process exited due to secret not available
+2023-05-04T16:29:24+00:00 INFO Called check_razorpay_response: wc_order_xLDFXNdotrIwB
+2023-05-04T16:29:24+00:00 INFO Get order id in check_razorpay_response: orderId 322
+2023-05-04T16:29:24+00:00 INFO verifySignature orderId: 322
+2023-05-04T16:29:24+00:00 INFO verifySignature attr
+2023-05-04T16:29:24+00:00 INFO {"razorpay_payment_id":"pay_LleTnIzdnb7ApD","razorpay_signature":"a3bf61aafcdeb2d83848c8fa7200efcaaec149303e19d62ef9c6c044ef073460","razorpay_order_id":"order_LleTGF5GBkXXRY"}
+2023-05-04T16:29:24+00:00 INFO updateOrder orderId: 322 , razorpayPaymentId: pay_LleTnIzdnb7ApD , success: 1
+2023-05-04T16:29:24+00:00 INFO Order details check initiated step 1 for the orderId: 322
+2023-05-04T16:29:25+00:00 INFO Woocommerce orderId: 322 processed through callback
+2023-05-04T16:58:04+00:00 INFO Called process_payment with params order_id 324
+2023-05-04T16:58:04+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 324
+2023-05-04T16:58:05+00:00 INFO getRazorpayPaymentParams 324
+2023-05-04T16:58:05+00:00 INFO createOrGetRazorpayOrderId 324 and is1ccCheckout is set to no
+2023-05-04T16:58:05+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 324 and is_magic_checkout_order is set to no
+2023-05-04T16:58:05+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id324
+2023-05-04T16:58:05+00:00 INFO Called createRazorpayOrderId with params orderId 324 and sessionKey razorpay_order_id324
+2023-05-04T16:58:05+00:00 INFO Called getOrderCreationData with params orderId 324
+2023-05-04T16:58:05+00:00 INFO Called getOrderCreationData with params orderId 324 and is1ccOrder is set to no
+2023-05-04T16:58:05+00:00 INFO For order 324
+2023-05-04T16:58:05+00:00 INFO {"receipt":324,"amount":1060,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"324"}}
+2023-05-04T16:58:06+00:00 INFO For order session key razorpay_order_id324
+2023-05-04T16:58:35+00:00 INFO Woocommerce orderId: 324 webhook process exited due to secret not available
+2023-05-04T16:58:42+00:00 INFO Called check_razorpay_response: wc_order_MkzOnjJCW9hns
+2023-05-04T16:58:42+00:00 INFO Get order id in check_razorpay_response: orderId 324
+2023-05-04T16:58:42+00:00 INFO verifySignature orderId: 324
+2023-05-04T16:58:42+00:00 INFO verifySignature attr
+2023-05-04T16:58:42+00:00 INFO {"razorpay_payment_id":"pay_Lleyg87VbEL19b","razorpay_signature":"00c4816bcd9235a7b9f002a13cd58eb6536121861686d78057a36a90d14ed5ef","razorpay_order_id":"order_LleyCGiwp9DxxA"}
+2023-05-04T16:58:42+00:00 INFO updateOrder orderId: 324 , razorpayPaymentId: pay_Lleyg87VbEL19b , success: 1
+2023-05-04T16:58:42+00:00 INFO Order details check initiated step 1 for the orderId: 324
+2023-05-04T16:58:43+00:00 INFO Woocommerce orderId: 324 processed through callback
+2023-05-04T17:31:37+00:00 INFO Called process_payment with params order_id 325
+2023-05-04T17:31:37+00:00 INFO Set transient with key razorpay_wc_order_id params order_id 325
+2023-05-04T17:31:39+00:00 INFO getRazorpayPaymentParams 325
+2023-05-04T17:31:39+00:00 INFO createOrGetRazorpayOrderId 325 and is1ccCheckout is set to no
+2023-05-04T17:31:39+00:00 INFO Called createOrGetRazorpayOrderId with params orderId 325 and is_magic_checkout_order is set to no
+2023-05-04T17:31:39+00:00 INFO razorpayOrderId  | sessionKey razorpay_order_id325
+2023-05-04T17:31:39+00:00 INFO Called createRazorpayOrderId with params orderId 325 and sessionKey razorpay_order_id325
+2023-05-04T17:31:39+00:00 INFO Called getOrderCreationData with params orderId 325
+2023-05-04T17:31:39+00:00 INFO Called getOrderCreationData with params orderId 325 and is1ccOrder is set to no
+2023-05-04T17:31:39+00:00 INFO For order 325
+2023-05-04T17:31:39+00:00 INFO {"receipt":325,"amount":269576,"currency":"INR","payment_capture":1,"app_offer":0,"notes":{"woocommerce_order_number":"325"}}
+2023-05-04T17:31:39+00:00 INFO For order session key razorpay_order_id325
+2023-05-04T17:32:08+00:00 INFO Woocommerce orderId: 325 webhook process exited due to secret not available
+2023-05-04T17:32:14+00:00 INFO Called check_razorpay_response: wc_order_rpA1TYbu3zmPd
+2023-05-04T17:32:14+00:00 INFO Get order id in check_razorpay_response: orderId 325
+2023-05-04T17:32:14+00:00 INFO verifySignature orderId: 325
+2023-05-04T17:32:14+00:00 INFO verifySignature attr
+2023-05-04T17:32:14+00:00 INFO {"razorpay_payment_id":"pay_LlfY7UHIpGO4st","razorpay_signature":"990f11c94b2edeef7f02efe53e58abcbcef90c3350b8cd17a21674c46bfd9ef0","razorpay_order_id":"order_LlfXdoNTsjtVbF"}
+2023-05-04T17:32:14+00:00 INFO updateOrder orderId: 325 , razorpayPaymentId: pay_LlfY7UHIpGO4st , success: 1
+2023-05-04T17:32:14+00:00 INFO Order details check initiated step 1 for the orderId: 325
+2023-05-04T17:32:14+00:00 INFO Woocommerce orderId: 325 processed through callback

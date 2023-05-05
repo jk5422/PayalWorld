@@ -1,0 +1,32 @@
+2023-05-04T05:59:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\includes\template-library\manager.php:470
+Stack trace:
+#0 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#1 C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\includes\template-library\manager.php(596): call_user_func(Array, Array)
+#2 C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\includes\template-library\manager.php(629): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#3 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\payalkurti\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#6 C:\xampp\htdocs\payalkurti\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\payalkurti\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\payalkurti\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\includes\template-library\manager.php on line 470
+
+2023-05-04T06:00:42+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\includes\template-library\manager.php:470
+Stack trace:
+#0 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#1 C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\includes\template-library\manager.php(596): call_user_func(Array, Array)
+#2 C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\includes\template-library\manager.php(629): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#3 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\payalkurti\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#6 C:\xampp\htdocs\payalkurti\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\payalkurti\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\payalkurti\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\xampp\htdocs\payalkurti\wp-content\plugins\elementor\includes\template-library\manager.php on line 470
+
+2023-05-04T08:41:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\payalkurti\wp-content\plugins\google-listings-and-ads\vendor\guzzlehttp\guzzle\src\Handler\CurlFactoryInterface.php on line 26
+
+2023-05-04T08:41:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\payalkurti\wp-content\plugins\google-listings-and-ads\src\Assets\BaseAsset.php on line 14
+
